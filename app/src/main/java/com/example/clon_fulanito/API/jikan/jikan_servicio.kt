@@ -3,6 +3,7 @@ package com.example.clon_fulanito.API.jikan
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+//Aqui se encargan la peticiones a internet
 object instanciaRetrofitJSONJIKAN {
     private const val url_base = "https://api.jikan.moe/v4/"
 
